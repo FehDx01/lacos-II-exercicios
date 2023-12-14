@@ -7,4 +7,21 @@ const array = [
 ]
 
 
+
+for(i=0; i<array.length; i++){
+    //console.log(array[i]);
+
+    for(let golsTemporada of array[i]){
+        console.log(`Estes são os gols marcados pelo Jogador ${i} nas últimas 5 temporadas: ${golsTemporada}`);
+        
+    }
+}
+   
+        
+
+
+
+
+
     
+
