@@ -5,3 +5,23 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+
+
+for(i=0; i<array.length; i++){
+    //console.log(array[i]);
+
+    for(let golsTemporada of array[i]){
+        console.log(`Estes são os gols marcados pelo Jogador ${i} nas últimas 5 temporadas: ${golsTemporada}`);
+        
+    }
+}
+   
+        
+
+
+
+
+
+    
+
